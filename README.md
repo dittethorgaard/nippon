@@ -1,2 +1,2 @@
 # nippon
-2. semester mdu projekt 1. nippon måltidskasser
+2. semester mdu 1. projekt: nippon måltidskasser
