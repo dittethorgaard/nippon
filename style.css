@@ -184,8 +184,9 @@ footer {
 /* MÅLTIDSKASSER - FORSIDE */
 
 .billede-container-maaltidskasse {
-    margin: 2rem auto; /* Centerer containeren */
-    width: 40rem; /* Sætter bredden til 20px */
+    margin: auto; /* Centerer containeren */
+    margin-top: 9rem; /* Centerer containeren */
+    width: 10rem; /* Sætter bredden til 20px */
 }
 
 
@@ -194,9 +195,9 @@ footer {
     height: auto; /* Bevarer billedets proportioner */
 }
 
-.billede-container-maaltidskasse p {
-    width: 20px; /* Sætter bredden på teksten til 20px */
-    margin: 0 auto; /* Centerer teksten */
+.maaltidskasse p {
+    width: 2rem; /* Sætter bredden på teksten til 2rem */
+    margin-left: 40.4rem; /* Centerer containeren */
 }
 
 .billede-container-maaltidskasse-udvalg {
@@ -215,7 +216,7 @@ footer {
 }
 
 .billede-container-maaltidskasse-udvalg p {
-    width: 20px; /* Sætter bredden på teksten til 20px */
+    width: 3rem; /* Sætter bredden på teksten til 3 rem */
     margin: 0rem 3.2rem; /* Centerer teksten */
 }
 
