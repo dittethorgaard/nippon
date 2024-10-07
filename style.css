@@ -190,14 +190,14 @@ footer {
     color: var(--skriftfarve); /* Farven på brødteksten */
     font-family: "merriweather"; /* skrifttype*/
   }
-  /* img */
+  /* img login */
 
   .login-img {
     width: 7rem; /* størrelsen af ikonerne (login og kurv) i header3-containeren */
     padding-bottom: 1.5rem; /* giver padding omkring hvert ikon */
   }
 
-  /* knap */
+  /* knap login */
   .login-box .button-login {
     display: inline-block;
     padding: 0.3rem 2rem;
@@ -214,3 +214,26 @@ footer {
 
 
 /* KURV */
+
+.kurv-box {
+    width: 70%; /* Juster bredden efter behov */
+    max-width: 30rem; /* Maximal bredde for at forhindre, at boksen bliver for bred på større skærme */
+    margin: 10rem auto; /* Centrerer boksen vandret og giver 2rem margin øverst og nederst */
+    padding: 2rem 7rem; /* 20px øverst og nederst, 70px i hver side */
+    background-color: #f7f7f7; /* Baggrundsfarven for boksen */
+    border: 0.12rem solid var(--sekundaer-beige); /* Ramme omkring boksen */
+    border-radius: 0.3rem; /* Afrundede hjørner */
+    text-align: center;
+    font-family: "merriweather"; /* skrifttype*/
+  }
+  
+  .kurv-box p {
+    color: var(--skriftfarve); /* Farven på brødteksten */
+    font-family: "merriweather"; /* skrifttype*/
+  }
+  /* img login */
+
+  .kurv-img {
+    width: 15rem; /* størrelsen af ikonerne (login og kurv) i header3-containeren */
+    padding-bottom: 1.5rem; /* giver padding omkring hvert ikon */
+  }
