@@ -205,8 +205,9 @@ footer {
 /* MÅLTIDSKASSER - FORSIDE */
 
 .billede-container-maaltidskasse {
-    margin: 20rem auto; /* Centerer containeren */
-    width: 20rem; /* Sætter bredden til 20px */
+    margin: auto; /* Centerer containeren */
+    margin-top: 9rem; /* Centerer containeren */
+    width: 10rem; /* Sætter bredden til 20px */
 }
 
 
@@ -215,32 +216,54 @@ footer {
     height: auto; /* Bevarer billedets proportioner */
 }
 
-.billede-container-maaltidskasse p {
-    width: 20px; /* Sætter bredden på teksten til 20px */
-    margin: 0 auto; /* Centerer teksten */
-    text-align: center;
+.maaltidskasse p {
+    width: 2rem; /* Sætter bredden på teksten til 2rem */
+    margin-left: 40.4rem; /* Centerer containeren */
+    font-family: "merriweather sans"; /* skrifttype*/
 }
 
 .billede-container-maaltidskasse-udvalg {
-    margin: 20rem auto; /* Centerer containeren */
-    width: 20rem; /* Sætter bredden til 20px */
-    display: flex; /* Brug Flexbox til at arrangere billederne i række */
-    justify-content: center; /* Centerer indholdet horisontalt */
+    margin: 2rem auto; /* Centerer containeren */
+    width: 40rem; /* Sætter bredden til 20px */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem; /* Afstand mellem kasserne */
+    padding: 0 2rem; /* Indre margin for containeren */
 }
 
 .billede-container-maaltidskasse-udvalg img {
     max-width: 100%; /* Billederne fylder containerens bredde */
     height: auto; /* Bevarer billedets proportioner */
-    display: flex; /* Brug Flexbox til at arrangere billederne i række */
-    justify-content: center; /* Centerer indholdet horisontalt */
+    margin-bottom: -1rem;
+
 }
 
 .billede-container-maaltidskasse-udvalg p {
-    width: 20px; /* Sætter bredden på teksten til 20px */
-    margin: 0 auto; /* Centerer teksten */
-    text-align: center;
+    width: 3rem; /* Sætter bredden på teksten til 3 rem */
+    margin: 0rem 3.1rem; /* Centerer teksten */
 }
 
+/* knap brugeranvisning */
+.container-knap {
+    display: flex; /* Gør det muligt at bruge flexbox */
+    justify-content: center; /* Centrerer horisontalt */
+    align-items: center; /* Centrerer vertikalt */
+    height: 5rem; /* Sætter højden til 100% af viewporten */
+}
+.button-brugeranvisning {
+    display: inline-block;
+    padding: 0.3rem 2rem;
+    background-color: var(--sekundaer-beige);
+    color: #000;
+    text-decoration: none;
+    border-radius: 0.3rem;
+    font-family: "merriweather"; /* skrifttype*/
+    
+  }
+  
+  .button-brugeranvisning:hover {
+    background-color: var(--sekundaer-moerk-beige);
+  }
 
 /* -------------------------------------------------------------- */
 /* MÅLTIDSKASSER - UNDERSIDE KØD */
@@ -256,7 +279,66 @@ footer {
 
 /* -------------------------------------------------------------- */
 /* MADPAKKER - FORSIDE */
+.billede-container-madpakke {
+    margin: auto; /* Centerer containeren */
+    margin-top: 9rem; /* Centerer containeren */
+    width: 10rem; /* Sætter bredden */
+}
 
+
+.billede-container-madpakke img {
+    max-width: 100%; /* Billederne fylder containerens bredde */
+    height: auto; /* Bevarer billedets proportioner */
+}
+
+.madpakke p {
+    width: 2rem; /* Sætter bredden på teksten til 2rem */
+    margin-left: 42rem; /* Centerer containeren */
+    font-family: "merriweather sans"; /* skrifttype*/
+}
+
+.billede-container-madpakke-udvalg {
+    margin: 2rem auto; /* Centerer containeren */
+    width: 40rem; /* Sætter bredden til 20px */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem; /* Afstand mellem kasserne */
+    padding: 0 2rem; /* Indre margin for containeren */
+}
+
+.billede-container-madpakke-udvalg img {
+    max-width: 100%; /* Billederne fylder containerens bredde */
+    height: auto; /* Bevarer billedets proportioner */
+    margin-bottom: -1rem;
+
+}
+
+.billede-container-madpakke-udvalg p {
+    width: 3rem; /* Sætter bredden på teksten til 3 rem */
+    margin: 0rem 3.1rem; /* Centerer teksten */
+}
+
+/* knap brugeranvisning */
+.container-knap {
+    display: flex; /* Gør det muligt at bruge flexbox */
+    justify-content: center; /* Centrerer horisontalt */
+    align-items: center; /* Centrerer vertikalt */
+    height: 5rem; /* Sætter højden til 100% af viewporten */
+}
+.button-brugeranvisning {
+    display: inline-block;
+    padding: 0.3rem 2rem;
+    background-color: var(--sekundaer-beige);
+    color: #000;
+    text-decoration: none;
+    border-radius: 0.3rem;
+    font-family: "merriweather"; /* skrifttype*/
+    
+  }
+  
+  .button-brugeranvisning:hover {
+    background-color: var(--sekundaer-moerk-beige);
+  }
 
 /* -------------------------------------------------------------- */
 /* BENTO BOX - UNDERSIDE KØD */
