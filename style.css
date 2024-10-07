@@ -163,7 +163,11 @@ footer {
 .active, .dot:hover {
     background-color: #717171;
 }
-  
+
+.dots {
+    padding-bottom: 20px;
+}
+
 /* Fading animation */
 .fade {
     animation-name: fade;
