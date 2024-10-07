@@ -105,6 +105,41 @@ footer {
 
 /* MÅLTIDSKASSER - FORSIDE */
 
+.billede-container-maaltidskasse {
+    margin: 20rem auto; /* Centerer containeren */
+    width: 20rem; /* Sætter bredden til 20px */
+}
+
+
+.billede-container-maaltidskasse img {
+    max-width: 100%; /* Billederne fylder containerens bredde */
+    height: auto; /* Bevarer billedets proportioner */
+}
+
+.billede-container-maaltidskasse p {
+    width: 20px; /* Sætter bredden på teksten til 20px */
+    margin: 0 auto; /* Centerer teksten */
+    text-align: center;
+}
+
+.billede-container-maaltidskasse-udvalg {
+    margin: 20rem auto; /* Centerer containeren */
+    width: 20rem; /* Sætter bredden til 20px */
+    display: flex; /* Brug Flexbox til at arrangere billederne i række */
+    justify-content: center; /* Centerer indholdet horisontalt */
+}
+
+.billede-container-maaltidskasse-udvalg img {
+    max-width: 100%; /* Billederne fylder containerens bredde */
+    height: auto; /* Bevarer billedets proportioner */
+}
+
+.billede-container-maaltidskasse-udvalg p {
+    width: 20px; /* Sætter bredden på teksten til 20px */
+    margin: 0 auto; /* Centerer teksten */
+    text-align: center;
+}
+
 
 /* MÅLTIDSKASSER - UNDERSIDE KØD */
 
