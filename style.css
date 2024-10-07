@@ -1,7 +1,9 @@
 /* Generelt */
 body {
     background-color: #E9E4DC; /* baggrundsfarven på selve body'en */
-    margin-top: 6.8rem;
+}
+main {
+    margin-top: 6.8rem; /* Add a top margin to avoid content overlay */ 
 }
 
 a:link {
@@ -103,35 +105,52 @@ footer {
 /* HOVEDFORSIDE */
 
 
+/* -------------------------------------------------------------- */
 /* MÅLTIDSKASSER - FORSIDE */
 
 
+/* -------------------------------------------------------------- */
 /* MÅLTIDSKASSER - UNDERSIDE KØD */
 
 
+/* -------------------------------------------------------------- */
 /* MÅLTIDSKASSER - UNDERSIDE FISK */
 
 
+/* -------------------------------------------------------------- */
 /* MÅLTIDSKASSER - UNDERSIDE VEGANSK */
 
 
+/* -------------------------------------------------------------- */
 /* MADPAKKER - FORSIDE */
 
 
+/* -------------------------------------------------------------- */
 /* BENTO BOX - UNDERSIDE KØD */
 
 
+/* -------------------------------------------------------------- */
 /* BENTOBOX - UNDERSIDE FISK */
 
 
+/* -------------------------------------------------------------- */
 /* BENTO BOX - UNDERSIDE VEGANSK */
 
 
+/* -------------------------------------------------------------- */
 /* HOW TO DO - BRUGERANVISNING */
+.HowToDo {
+    display: flex; /* gør brugeranvisningen flexibel */
+    justify-content: center; /* placere elementet i midten */
+    padding: 20px; /* afstand omkring elementet */
+}
 
+.HowToDo img {
+    width: 50%; /* størrelsen på howtodo - billedet justere bredden efter behov */
+}
 
+/* -------------------------------------------------------------- */
 /* LOGIN */
-  
   .login-box {
     width: 70%; /* Juster bredden efter behov */
     max-width: 400px; /* Maximal bredde for at forhindre, at boksen bliver for bred på større skærme */
@@ -170,4 +189,5 @@ footer {
   }
 
 
+/* -------------------------------------------------------------- */
 /* KURV */
