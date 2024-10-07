@@ -141,7 +141,7 @@ footer {
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
-  }
+}
   
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
@@ -179,6 +179,27 @@ footer {
     from {opacity: .4}
     to {opacity: 1}
 }
+
+/* valgmuligheder css */
+
+
+/* Mission og vision */
+.mission {
+    background-color: var(--primaer-beige);
+}
+
+.mission h3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+
+.mission p {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 10rem 3rem 10rem;
+}
+
 
 /* -------------------------------------------------------------- */
 /* MÅLTIDSKASSER - FORSIDE */
