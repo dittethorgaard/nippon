@@ -134,12 +134,12 @@ footer {
   
   .login-box {
     width: 70%; /* Juster bredden efter behov */
-    max-width: 400px; /* Maximal bredde for at forhindre, at boksen bliver for bred på større skærme */
-    margin: 20px auto; /* Centrerer boksen vandret og giver 20px margin øverst og nederst */
-    padding: 20px 70px; /* 20px øverst og nederst, 70px i hver side */
+    max-width: 30rem; /* Maximal bredde for at forhindre, at boksen bliver for bred på større skærme */
+    margin: 10rem auto; /* Centrerer boksen vandret og giver 2rem margin øverst og nederst */
+    padding: 2rem 7rem; /* 20px øverst og nederst, 70px i hver side */
     background-color: #f7f7f7; /* Baggrundsfarven for boksen */
-    border: 2px solid var(--sekundaer-beige); /* Ramme omkring boksen */
-    border-radius: 5px; /* Afrundede hjørner */
+    border: 0.12rem solid var(--sekundaer-beige); /* Ramme omkring boksen */
+    border-radius: 0.3rem; /* Afrundede hjørner */
     text-align: center;
     font-family: "merriweather"; /* skrifttype*/
   }
@@ -163,11 +163,11 @@ footer {
   /* knap */
   .login-box .button-login {
     display: inline-block;
-    padding: 7px 20px;
+    padding: 0.3rem 2rem;
     background-color: var(--sekundaer-beige);
     color: #000;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 0.3rem;
     font-family: "merriweather"; /* skrifttype*/
   }
   
