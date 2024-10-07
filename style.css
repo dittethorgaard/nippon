@@ -174,7 +174,7 @@ footer {
     max-width: 30rem; /* Maximal bredde for at forhindre, at boksen bliver for bred på større skærme */
     margin: 10rem auto; /* Centrerer boksen vandret og giver 2rem margin øverst og nederst */
     padding: 2rem 7rem; /* 20px øverst og nederst, 70px i hver side */
-    background-color: #f7f7f7; /* Baggrundsfarven for boksen */
+    background-color: #f7f7ef; /* Baggrundsfarven for boksen */
     border: 0.12rem solid var(--sekundaer-beige); /* Ramme omkring boksen */
     border-radius: 0.3rem; /* Afrundede hjørner */
     text-align: center;
@@ -220,7 +220,7 @@ footer {
     max-width: 30rem; /* Maximal bredde for at forhindre, at boksen bliver for bred på større skærme */
     margin: 10rem auto; /* Centrerer boksen vandret og giver 2rem margin øverst og nederst */
     padding: 2rem 7rem; /* 20px øverst og nederst, 70px i hver side */
-    background-color: #f7f7f7; /* Baggrundsfarven for boksen */
+    background-color: #f7f7ef; /* Baggrundsfarven for boksen */
     border: 0.12rem solid var(--sekundaer-beige); /* Ramme omkring boksen */
     border-radius: 0.3rem; /* Afrundede hjørner */
     text-align: center;
