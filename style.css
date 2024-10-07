@@ -132,6 +132,8 @@ footer {
 .billede-container-maaltidskasse-udvalg img {
     max-width: 100%; /* Billederne fylder containerens bredde */
     height: auto; /* Bevarer billedets proportioner */
+    display: flex; /* Brug Flexbox til at arrangere billederne i række */
+    justify-content: center; /* Centerer indholdet horisontalt */
 }
 
 .billede-container-maaltidskasse-udvalg p {
