@@ -90,6 +90,56 @@ header {
 
 
 /* LOGIN */
-
+  
+  .login-box {
+    width: 70%; /* Juster bredden efter behov */
+    max-width: 400px; /* Maximal bredde for at forhindre, at boksen bliver for bred på større skærme */
+    margin: 20px auto; /* Centrerer boksen vandret og giver 20px margin øverst og nederst */
+    padding: 20px 70px; /* 20px øverst og nederst, 70px i hver side */
+    background-color: #fff; /* Baggrundsfarven for boksen */
+    border: 2px solid var(--sekundaer-beige); /* Ramme omkring boksen */
+    border-radius: 10px; /* Afrundede hjørner */
+    text-align: center;
+    font-family: "Montserrat", sans-serif; /* skrifttype*/
+  }
+  
+  .login-box h2 {
+    color: var(--skriftfarve); /* Farven på overskriften */
+    font-family: "Montserrat", sans-serif; /* skrifttype*/
+  }
+  
+  .login-box p {
+    color: var(--skriftfarve); /* Farven på brødteksten */
+    font-family: "Montserrat", sans-serif; /* skrifttype*/
+  }
+  
+  /* knap */
+  .login-box .button-login {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--sekundaer-beige);
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif; /* skrifttype*/
+  }
+  
+  .login-box .button-login:hover {
+    background-color: var(--sekundaer-moerk-beige);
+  }
+  
+  .button-login {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--sekundaer-beige);
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif; /* skrifttype*/
+  }
+  
+  .button-login:hover {
+    background-color: var(--sekundaer-moerk-beige);
+  }
 
 /* KURV */
