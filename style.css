@@ -110,7 +110,11 @@ footer {
     position: relative;
     margin: auto;
 }
-  
+
+.mySlides img {
+    padding-top: 20px;
+}
+
 /* Hide the images by default */
 .mySlides {
     display: none;
