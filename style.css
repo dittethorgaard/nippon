@@ -199,6 +199,29 @@ footer {
     padding-bottom: 1rem; /* afstand mellem billedet og teksten */
 }
 
+/* Knap til brugsanvisning */
+.container-knap {
+    display: flex; /* Gør det muligt at bruge flexbox */
+    justify-content: center; /* Centrerer horisontalt */
+    align-items: center; /* Centrerer vertikalt */
+    height: 5rem; /* Sætter højden til 100% af viewporten */
+}
+.button-brugeranvisning {
+    display: inline-block;
+    padding: 0.3rem 2rem;
+    background-color: var(--sekundaer-beige);
+    color: #000;
+    text-decoration: none;
+    border-radius: 0.3rem;
+    font-family: "merriweather"; /* skrifttype*/
+    
+}
+  
+.button-brugeranvisning:hover {
+    background-color: var(--sekundaer-moerk-beige);
+}
+
+
 /* Mission og vision */
 .mission {
     background-color: var(--primaer-beige);
