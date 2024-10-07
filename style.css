@@ -38,7 +38,7 @@ header {
 .header2 {
     width: 60%; /* størrelsen på midter header-containeren, som indeholder logo og navbar */
     display: flex; /* gør containeren flexibel */
-    justify-content: center;
+    justify-content: center; /* placere elementet i midten af containeren */
     flex-direction: column; /* gør elementerne inde i header2 containeren er i en kolonne */
 }
 .header2-logo {
@@ -113,7 +113,7 @@ footer {
 }
 
 .mySlides img {
-    padding-top: 20px;
+    padding-top: 20px;/* giver afstand til headeren */
 }
 
 /* Hide the images by default */
@@ -166,7 +166,7 @@ footer {
 }
 
 .dots {
-    padding-bottom: 20px;
+    padding-bottom: 20px; /* giver afstand til næste container */
 }
 
 /* Fading animation */
