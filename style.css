@@ -46,12 +46,14 @@ header {
     justify-content: center; /* placere elementet i midten af containeren */
 }
 .header2-logo img{
+    margin: auto; /* Centerer containeren */
     width: 15rem; /* størrelsen af logoet */
     height: auto; /* gør at billedet ikke bliver distorted */
     padding-top: 0.5rem; /* afstand til toppen af skærmen */
 }
 
 .navbar {
+    margin: auto;
     display: flex; /* gør containeren flexibel */
     justify-content: center; /* placere elementerne i midten af containeren */
 }
@@ -180,8 +182,22 @@ footer {
     to {opacity: 1}
 }
 
-/* valgmuligheder css */
+/* Måltidskasser og Madpakker */
+.forside-container {
+    margin: auto; /* centerer containeren */
+    display: flex;
+    justify-content: center; /* placerer elementerne i midten */
+    align-items: baseline; /* gør at elementerne er på sammen linje - bundlinjen */
+    flex-direction: row; /* gør elementerne på række */
+    text-align: center; /* centrere teksten  */
+    padding-bottom: 2.5rem;
+}
 
+.forside-container img {
+    margin: auto; /* centerer containeren */
+    width: 18rem; /* størrelse på billederne */
+    padding-bottom: 1rem; /* afstand mellem billedet og teksten */
+}
 
 /* Mission og vision */
 .mission {
@@ -189,12 +205,14 @@ footer {
 }
 
 .mission h3 {
+    margin: auto;
     display: flex;
     justify-content: center;
     padding-top: 1.5rem;
 }
 
 .mission p {
+    margin: auto;
     display: flex;
     justify-content: center;
     padding: 1rem 10rem 3rem 10rem;
