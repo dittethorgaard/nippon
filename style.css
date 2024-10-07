@@ -212,12 +212,13 @@ footer {
 .billede-container-maaltidskasse-udvalg img {
     max-width: 100%; /* Billederne fylder containerens bredde */
     height: auto; /* Bevarer billedets proportioner */
+    margin-bottom: -1rem;
 
 }
 
 .billede-container-maaltidskasse-udvalg p {
     width: 3rem; /* Sætter bredden på teksten til 3 rem */
-    margin: 0rem 3.2rem; /* Centerer teksten */
+    margin: 0rem 3.1rem; /* Centerer teksten */
 }
 
 
