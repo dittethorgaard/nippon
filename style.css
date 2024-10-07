@@ -100,12 +100,12 @@ header {
   
   .login-box {
     width: 70%; /* Juster bredden efter behov */
-    max-width: 500px; /* Maximal bredde for at forhindre, at boksen bliver for bred på større skærme */
+    max-width: 400px; /* Maximal bredde for at forhindre, at boksen bliver for bred på større skærme */
     margin: 20px auto; /* Centrerer boksen vandret og giver 20px margin øverst og nederst */
     padding: 20px 70px; /* 20px øverst og nederst, 70px i hver side */
     background-color: #f7f7f7; /* Baggrundsfarven for boksen */
     border: 2px solid var(--sekundaer-beige); /* Ramme omkring boksen */
-    border-radius: 10px; /* Afrundede hjørner */
+    border-radius: 5px; /* Afrundede hjørner */
     text-align: center;
     font-family: "merriweather"; /* skrifttype*/
   }
@@ -123,30 +123,17 @@ header {
   /* knap */
   .login-box .button-login {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 7px 20px;
     background-color: var(--sekundaer-beige);
     color: #000;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-family: "merriweather"; /* skrifttype*/
   }
   
   .login-box .button-login:hover {
     background-color: var(--sekundaer-moerk-beige);
   }
-  
-  .button-login {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: var(--sekundaer-beige);
-    color: #000;
-    text-decoration: none;
-    border-radius: 5px;
-    font-family: "merriweather"; /* skrifttype*/
-  }
-  
-  .button-login:hover {
-    background-color: var(--sekundaer-moerk-beige);
-  }
+
 
 /* KURV */
