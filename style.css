@@ -3,7 +3,7 @@ body {
     background-color: #E9E4DC; /* baggrundsfarven på selve body'en */
 }
 main {
-    margin-top: 6.8rem; /* Add a top margin to avoid content overlay */ 
+    margin-top: 7rem; /* Add a top margin to avoid content overlay */ 
 }
 
 a:link {
