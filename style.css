@@ -38,6 +38,7 @@ header {
 .header2 {
     width: 60%; /* størrelsen på midter header-containeren, som indeholder logo og navbar */
     display: flex; /* gør containeren flexibel */
+    justify-content: center;
     flex-direction: column; /* gør elementerne inde i header2 containeren er i en kolonne */
 }
 .header2-logo {
