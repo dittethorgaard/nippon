@@ -1,6 +1,7 @@
 /* Generelt */
 body {
     background-color: #E9E4DC; /* baggrundsfarven på selve body'en */
+    margin-top: 6.8rem;
 }
 
 a:link {
@@ -22,6 +23,10 @@ header {
     background-color: #D9D2C7; /* baggrundsfarven på header */
     display: flex; /* gør header flexibel */
     flex-direction: row; /* gør header-containerne ligger på en række */
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
 }
 
 .header1 {
