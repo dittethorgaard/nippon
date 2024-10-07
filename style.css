@@ -20,7 +20,7 @@ a:link {
 /* -------------------------------------------------------------- */
 /* HEADER */
 header {
-    background-color: #D9D2C7; /* baggrundsfarven på header */
+    background-color: var(--primaer-beige); /* baggrundsfarven på header */
     display: flex; /* gør header flexibel */
     flex-direction: row; /* gør header-containerne ligger på en række */
     overflow: hidden;
@@ -70,7 +70,7 @@ header {
 /* -------------------------------------------------------------- */
 /* FOOTER */
 footer {
-    background-color: #D9D2C7; /* baggrundsfarve på footer */
+    background-color: var(--primaer-beige); /* baggrundsfarve på footer */
     width: 100%; /* gør at det fylder hele skærmen ud */
 }
 
