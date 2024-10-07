@@ -33,6 +33,7 @@ header {
 .header2-logo img{
     width: 15rem; /* størrelsen af logoet */
     height: auto; /* gør at billedet ikke bliver distorted */
+    padding-top: 0.5rem; /* afstand til toppen af skærmen */
 }
 
 .navbar {
@@ -50,14 +51,42 @@ header {
     align-items: end; /* placere den i det nedereste højrne af containeren. */
 }
 .header3 img {
-    width: 2.5rem; /* størrelsen af ikonerne (login og kurv) i header3-containeren */
+    height: 2.5rem; /* størrelsen af ikonerne (login og kurv) i header3-containeren */
     padding: 0.3rem; /* giver padding omkring hvert ikon */
 }
 
 /* -------------------------------------------------------------- */
 /* FOOTER */
+footer {
+    background-color: #D9D2C7; /* baggrundsfarve på footer */
+    width: 100%; /* gør at det fylder hele skærmen ud */
+}
 
+.footercontainer {
+    display: flex; /* gør containerne flexibel */
+    justify-content: space-between; /* placerer elementerne i hver side af skærmen */
+}
 
+.footersocialemedier ul {
+    list-style: none; /* fjerner prikkerne fra list-elementerne */
+}
+
+.footersocialemedier img {
+    width: 2.5rem; /* størrelsen af sociale medier ikonerne */
+    padding: 0.2rem; /* afstand rundt om ikonerne, så de ikke ligger for tæt */
+}
+
+.footerlinks {
+    display: flex; /* gør containerne flexibel */
+    flex-direction: column; /* placere elementerne i en kolonne */
+    justify-content: center; /* placere elementerne i midten af containeren */
+}
+
+.footerlinks a {
+    padding-right: 1.65rem; /* afstand til højre */
+    padding-top: 0.5rem; /* afstand til element over */
+    padding-bottom: 0.5rem; /* afstand til element under */
+}
 /* -------------------------------------------------------------- */
 /* HOVEDFORSIDE */
 
