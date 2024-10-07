@@ -9,6 +9,13 @@ a:link {
     font-family: "Merriweather Sans", sans-serif; /* skiftypen på link */
 }
 
+:root {
+    --skriftfarve: #000;
+    --primaer-beige: #D9D2C7;
+    --sekundaer-beige: #B6A08A;
+    --sekundaer-moerk-beige: #8e7d6d;  
+  }
+
 /* -------------------------------------------------------------- */
 /* HEADER */
 header {
@@ -119,6 +126,43 @@ footer {
 
 
 /* LOGIN */
+  
+  .login-box {
+    width: 70%; /* Juster bredden efter behov */
+    max-width: 400px; /* Maximal bredde for at forhindre, at boksen bliver for bred på større skærme */
+    margin: 20px auto; /* Centrerer boksen vandret og giver 20px margin øverst og nederst */
+    padding: 20px 70px; /* 20px øverst og nederst, 70px i hver side */
+    background-color: #f7f7f7; /* Baggrundsfarven for boksen */
+    border: 2px solid var(--sekundaer-beige); /* Ramme omkring boksen */
+    border-radius: 5px; /* Afrundede hjørner */
+    text-align: center;
+    font-family: "merriweather"; /* skrifttype*/
+  }
+  
+  .login-box h2 {
+    color: var(--skriftfarve); /* Farven på overskriften */
+    font-family: "merriweather"; /* skrifttype*/
+  }
+  
+  .login-box p {
+    color: var(--skriftfarve); /* Farven på brødteksten */
+    font-family: "merriweather"; /* skrifttype*/
+  }
+  
+  /* knap */
+  .login-box .button-login {
+    display: inline-block;
+    padding: 7px 20px;
+    background-color: var(--sekundaer-beige);
+    color: #000;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: "merriweather"; /* skrifttype*/
+  }
+  
+  .login-box .button-login:hover {
+    background-color: var(--sekundaer-moerk-beige);
+  }
 
 
 /* KURV */
