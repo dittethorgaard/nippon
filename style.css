@@ -119,7 +119,13 @@ header {
     color: var(--skriftfarve); /* Farven på brødteksten */
     font-family: "merriweather"; /* skrifttype*/
   }
-  
+  /* img */
+
+  .login-img {
+    width: 7rem; /* størrelsen af ikonerne (login og kurv) i header3-containeren */
+    padding-bottom: 1.5rem; /* giver padding omkring hvert ikon */
+  }
+
   /* knap */
   .login-box .button-login {
     display: inline-block;
