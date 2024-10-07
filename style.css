@@ -1,12 +1,64 @@
 /* Generelt */
+body {
+    background-color: #E9E4DC; /* baggrundsfarven på selve body'en */
+}
 
+a:link {
+    text-decoration: none; /* fjerner stregen under linket */
+    color: #000; /* gør teksten sort */
+    font-family: "Merriweather Sans", sans-serif; /* skiftypen på link */
+}
 
+/* -------------------------------------------------------------- */
 /* HEADER */
+header {
+    background-color: #D9D2C7; /* baggrundsfarven på header */
+    display: flex; /* gør header flexibel */
+    flex-direction: row; /* gør header-containerne ligger på en række */
+}
 
+.header1 {
+    width: 20%; /* størrelsen på den første header-container, som er usynlig / tom  */
+}
 
+.header2 {
+    width: 60%; /* størrelsen på midter header-containeren, som indeholder logo og navbar */
+    display: flex; /* gør containeren flexibel */
+    flex-direction: column; /* gør elementerne inde i header2 containeren er i en kolonne */
+}
+.header2-logo {
+    display: flex; /* gør containeren flexibel */
+    justify-content: center; /* placere elementet i midten af containeren */
+}
+.header2-logo img{
+    width: 15rem; /* størrelsen af logoet */
+    height: auto; /* gør at billedet ikke bliver distorted */
+}
+
+.navbar {
+    display: flex; /* gør containeren flexibel */
+    justify-content: center; /* placere elementerne i midten af containeren */
+}
+.navbar a {
+    padding: 0.8rem; /* giver padding omkring hver link a i navbar-containeren */
+}
+
+.header3 {
+    width: 20%; /* størrelsen af den sidste header-container */
+    display: flex; /* gør containerne flexibel */
+    justify-content: right; /* placere ikonerne til højre */
+    align-items: end; /* placere den i det nedereste højrne af containeren. */
+}
+.header3 img {
+    width: 2.5rem; /* størrelsen af ikonerne (login og kurv) i header3-containeren */
+    padding: 0.3rem; /* giver padding omkring hvert ikon */
+}
+
+/* -------------------------------------------------------------- */
 /* FOOTER */
 
 
+/* -------------------------------------------------------------- */
 /* HOVEDFORSIDE */
 
 
