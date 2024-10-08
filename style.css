@@ -450,7 +450,23 @@ footer {
 
 /* -------------------------------------------------------------- */
 /* BENTO BOX - UNDERSIDE KØD */
+.billede-container-kod-udvalg {
+    margin: auto; /* Centerer containeren */
+    margin-top: 9rem; /* Centerer containeren */
+    width: 10rem; /* Sætter bredden til 20px */
+}
 
+
+.billede-container-kod-udvalg img {
+    max-width: 100%; /* Billederne fylder containerens bredde */
+    height: auto; /* Bevarer billedets proportioner */
+}
+
+.kod-udvalg p {
+    width: 2rem; /* Sætter bredden på teksten til 2rem */
+    margin-left: 41.1rem; /* Centerer containeren */
+    font-family: "merriweather sans"; /* skrifttype*/
+}
 
 /* -------------------------------------------------------------- */
 /* BENTOBOX - UNDERSIDE FISK */
@@ -474,7 +490,23 @@ footer {
 
 /* -------------------------------------------------------------- */
 /* BENTO BOX - UNDERSIDE VEGANSK */
+.billede-container-veg-udvalg {
+    margin: auto; /* Centerer containeren */
+    margin-top: 9rem; /* Centerer containeren */
+    width: 10rem; /* Sætter bredden til 20px */
+}
 
+
+.billede-container-veg-udvalg img {
+    max-width: 100%; /* Billederne fylder containerens bredde */
+    height: auto; /* Bevarer billedets proportioner */
+}
+
+.veg-udvalg p {
+    width: 2rem; /* Sætter bredden på teksten til 2rem */
+    margin-left: 41.6rem; /* Centerer containeren */
+    font-family: "merriweather sans"; /* skrifttype*/
+}
 
 /* -------------------------------------------------------------- */
 /* HOW TO DO - BRUGERANVISNING */
