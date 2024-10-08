@@ -217,15 +217,14 @@ footer {
 .prik {
     min-height: 330px; /* højden på prikkerne */
     width: 330px; /* bredden på prikkerne */
-    margin: 0 2px;
+    margin: 0 5px;
     background-color: var(--primaer-beige); /* baggrundsfarven */
     border-radius: 50%; /* gør prikkerne helt cirkulære */
-    display: inline-block; /*  */
-    transition: background-color 0.6s ease; /*  */
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
 .prikker {
-    align-items: baseline;
     padding: 20px; /* giver afstand til næste container */
 }
 
@@ -236,11 +235,7 @@ footer {
 
 .prik p {
     font-family: "Merriweather", Serif; /* skiftype */
-    padding: 0rem 2rem 0rem 2rem;
-}
-
-.prik-knap {
-    cursor: pointer; /* ændre musen til at indikere man kan klikke på den */
+    padding: 0rem 3rem 0rem 3rem;
 }
 
 #more {display: none;}
