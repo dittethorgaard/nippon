@@ -61,6 +61,12 @@ header {
     padding: 0.8rem; /* giver padding omkring hver link a i navbar-containeren */
 }
 
+.vl {
+    border-left: 2px solid black;
+    height: 38px;
+    margin-top: 2px;
+}
+
 .header3 {
     width: 20%; /* størrelsen af den sidste header-container */
     display: flex; /* gør containerne flexibel */
