@@ -37,6 +37,7 @@ header {
 
 .header2 {
     width: 60%; /* størrelsen på midter header-containeren, som indeholder logo og navbar */
+    margin: auto; /* centrer i midten af containeren */
     display: flex; /* gør containeren flexibel */
     justify-content: center; /* placere elementet i midten af containeren */
     flex-direction: column; /* gør elementerne inde i header2 containeren er i en kolonne */
@@ -72,6 +73,7 @@ header {
     display: flex; /* gør containerne flexibel */
     justify-content: right; /* placere ikonerne til højre */
     align-items: end; /* placere den i det nedereste højrne af containeren. */
+    padding-right: 0.7rem; /* rykker ikonerne lidt ind på side */
 }
 .header3 img {
     height: 2.5rem; /* størrelsen af ikonerne (login og kurv) i header3-containeren */
@@ -104,6 +106,7 @@ footer {
     display: flex; /* gør containerne flexibel */
     flex-direction: column; /* placere elementerne i en kolonne */
     justify-content: center; /* placere elementerne i midten af containeren */
+    padding-right: 0.7rem; /* afstand til kant */
 }
 
 .footerlinks a {
@@ -231,24 +234,49 @@ footer {
 
 /* Mission og vision */
 .mission {
-    background-color: var(--primaer-beige);
+    background-color: var(--sekundaer-moerk-beige);
 }
 
 .mission h3 {
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    padding-top: 1.5rem;
+    font-family: "Merriweather Sans", sans-serif; /* skrifttype */
+    margin: auto; /* centrer i midten af containeren */
+    display: flex; /* gør det muligt at bruge flexbox */
+    justify-content: center; /* centrere horisontalt */
+    align-items: center; /* centrere vertikalt */
+    padding-top: 1rem; /* afstand til toppen */
 }
 
 .mission p {
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    padding: 1rem 10rem 3rem 10rem;
+    margin: auto; /* centrere midten af containeren */
+    display: flex; /* gør det muligt at bruge flexbox */
+    justify-content: center; /* centrere horisontalt */
+    align-items: center; /* centrere vertikalt */
+    padding: 1rem 10rem 1.5rem 10rem; /* afstand 1=top, 10=venstre, 1.5=bund, 10=højre */
+    font-family: "Merriweather", serif; /* skrifttype */
 }
 
+.vision {
+    background-color: var(--sekundaer-beige);
+    margin-top: 2rem;
+}
 
+.vision h3 {
+    font-family: "Merriweather Sans", sans-serif; /* skrifttype */
+    margin: auto; /* centrer i midten af containeren */
+    display: flex; /* gør det muligt at bruge flexbox */
+    justify-content: center; /* centrere horisontalt */
+    align-items: center; /* centrere vertikalt */
+    padding-top: 1rem; /* afstand til toppen */
+}
+
+.vision p {
+    margin: auto; /* centrere midten af containeren */
+    display: flex; /* gør det muligt at bruge flexbox */
+    justify-content: center; /* centrere horisontalt */
+    align-items: center; /* centrere vertikalt */
+    padding: 1rem 10rem 1.5rem 10rem; /* afstand 1=top, 10=venstre, 1.5=bund, 10=højre */
+    font-family: "Merriweather", serif; /* skrifttype */
+}
 /* -------------------------------------------------------------- */
 /* MÅLTIDSKASSER - FORSIDE */
 
