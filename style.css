@@ -117,8 +117,8 @@ footer {
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px; /* max størrelsr på slider-containeren */
-    position: relative; 
-    margin: auto;
+    position: relative; /*  */
+    margin: auto; /* centrer slideshow-containeren */
 }
 
 .mySlides img {
@@ -127,51 +127,51 @@ footer {
 
 /* Hide the images by default */
 .mySlides {
-    display: none;
+    display: none; /*  */
 }
   
 /* Next & previous buttons */
 .prev, .next {
-    cursor: pointer;
+    cursor: pointer; /* ændre musen til at indikere man kan klikke på den  */
     position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
+    top: 50%; /* placere den halvvejs på billedet - ved kanten */
+    width: auto; /*  */
+    margin-top: -22px; /*  */
+    padding: 16px; /* afstand rundt om */
+    color: white; /* farven på pillene */
+    font-weight: bold; /* gør pillene tykke */
+    font-size: 25px; /* størrelsen på pillene */
+    transition: 0.6s ease; /*  */
+    border-radius: 0 7px 7px 0; /* afrundet hjørner mod billedet - ikke mod kanten */
+    user-select: none; /*  */
 }
   
 /* Position the "next button" to the right */
 .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
+    right: 0; /* placere helt til højre kant */
+    border-radius: 7px 0 0 7px; /* afrundet hjørner mod billedet - ikke mod kanten */
 }
   
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.8); /* baggrundsfarven til pillene, når man hover over dem */
 }
   
 
-/* The dots/bullets/indicators */
+/* The dots */
 .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
+    cursor: pointer; /* ændre musen til at indikere man kan klikke på den */
+    height: 15px; /* højden på prikkerne */
+    width: 15px; /* bredden på prikkerne */
+    margin: 0 2px; /* afstand  */
+    background-color: #bbb; /* baggrundsfarven */
+    border-radius: 50%; /* gør prikkerne helt cirkulære */
+    display: inline-block; /*  */
+    transition: background-color 0.6s ease; /*  */
 }
   
 .active, .dot:hover {
-    background-color: #717171;
+    background-color: #717171; /* farve når hover */
 }
 
 .dots {
@@ -197,7 +197,7 @@ footer {
     align-items: baseline; /* gør at elementerne er på sammen linje - bundlinjen */
     flex-direction: row; /* gør elementerne på række */
     text-align: center; /* centrere teksten  */
-    padding-bottom: 2.5rem;
+    padding-bottom: 1rem; /* afstand til elementet under */
 }
 
 .forside-container img {
@@ -208,24 +208,24 @@ footer {
 
 /* Knap til brugsanvisning */
 .container-knap {
-    display: flex; /* Gør det muligt at bruge flexbox */
-    justify-content: center; /* Centrerer horisontalt */
-    align-items: center; /* Centrerer vertikalt */
-    height: 5rem; /* Sætter højden til 100% af viewporten */
+    display: flex; /* gør det muligt at bruge flexbox */
+    justify-content: center; /* centrerer horisontalt */
+    align-items: center; /* centrerer vertikalt */
+    height: 5rem; /* sætter højden til 100% af viewporten */
 }
 .button-brugeranvisning {
     display: inline-block;
     padding: 0.3rem 2rem;
-    background-color: var(--sekundaer-beige);
-    color: #000;
-    text-decoration: none;
-    border-radius: 0.3rem;
+    background-color: var(--sekundaer-beige); /* baggrundsfarve til knappen */
+    color: #000; /* tekst farve */
+    text-decoration: none; /* fjerner streg under link */
+    border-radius: 0.3rem; /* runder hjørneren */
     font-family: "merriweather"; /* skrifttype*/
     
 }
   
 .button-brugeranvisning:hover {
-    background-color: var(--sekundaer-moerk-beige);
+    background-color: var(--sekundaer-moerk-beige); /* baggrundsfarve når hover */
 }
 
 
@@ -373,6 +373,7 @@ footer {
     align-items: center; /* Centrerer vertikalt */
     height: 5rem; /* Sætter højden til 100% af viewporten */
 }
+
 .button-brugeranvisning {
     display: inline-block;
     padding: 0.3rem 2rem;
@@ -382,11 +383,11 @@ footer {
     border-radius: 0.3rem;
     font-family: "merriweather"; /* skrifttype*/
     
-  }
-  
-  .button-brugeranvisning:hover {
+}
+
+.button-brugeranvisning:hover {
     background-color: var(--sekundaer-moerk-beige);
-  }
+}
 
 /* -------------------------------------------------------------- */
 /* BENTO BOX - UNDERSIDE KØD */
@@ -415,7 +416,7 @@ footer {
 
 /* -------------------------------------------------------------- */
 /* LOGIN */
-  .login-box {
+.login-box {
     width: 70%; /* Juster bredden efter behov */
     max-width: 30rem; /* Maximal bredde for at forhindre, at boksen bliver for bred på større skærme */
     margin: 10rem auto; /* Centrerer boksen vandret og giver 2rem margin øverst og nederst */
@@ -425,26 +426,26 @@ footer {
     border-radius: 0.3rem; /* Afrundede hjørner */
     text-align: center;
     font-family: "merriweather"; /* skrifttype*/
-  }
+}
   
-  .login-box h2 {
+.login-box h2 {
     color: var(--skriftfarve); /* Farven på overskriften */
     font-family: "merriweather"; /* skrifttype*/
-  }
+}
   
-  .login-box p {
+.login-box p {
     color: var(--skriftfarve); /* Farven på brødteksten */
     font-family: "merriweather"; /* skrifttype*/
-  }
-  /* img login */
+}
 
-  .login-img {
+/* img login */
+.login-img {
     width: 7rem; /* størrelsen af ikonerne (login og kurv) i header3-containeren */
     padding-bottom: 1.5rem; /* giver padding omkring hvert ikon */
-  }
+}
 
-  /* knap login */
-  .login-box .button-login {
+/* knap login */
+.login-box .button-login {
     display: inline-block;
     padding: 0.3rem 2rem;
     background-color: var(--sekundaer-beige);
@@ -452,11 +453,11 @@ footer {
     text-decoration: none;
     border-radius: 0.3rem;
     font-family: "merriweather"; /* skrifttype*/
-  }
+}
   
-  .login-box .button-login:hover {
+.login-box .button-login:hover {
     background-color: var(--sekundaer-moerk-beige);
-  }
+}
 
 
 /* -------------------------------------------------------------- */
@@ -471,15 +472,15 @@ footer {
     border-radius: 0.3rem; /* Afrundede hjørner */
     text-align: center;
     font-family: "merriweather"; /* skrifttype*/
-  }
+}
   
-  .kurv-box p {
+.kurv-box p {
     color: var(--skriftfarve); /* Farven på brødteksten */
     font-family: "merriweather"; /* skrifttype*/
-  }
-  /* img login */
-
-  .kurv-img {
+}
+  
+/* img login */
+.kurv-img {
     width: 15rem; /* størrelsen af ikonerne (login og kurv) i header3-containeren */
     padding-bottom: 1.5rem; /* giver padding omkring hvert ikon */
-  }
+}
