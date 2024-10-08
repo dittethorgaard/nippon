@@ -62,9 +62,9 @@ header {
 }
 
 .vl {
-    border-left: 2px solid black;
-    height: 38px;
-    margin-top: 2px;
+    border-left: 2px solid black; /* danner den vertikale streg i navbar */
+    height: 38px; /* højden på stregen */
+    margin-top: 2px; /* rykker den 2px ned, så den er i center af linjen */
 }
 
 .header3 {
@@ -83,6 +83,7 @@ header {
 footer {
     background-color: var(--primaer-beige); /* baggrundsfarve på footer */
     width: 100%; /* gør at det fylder hele skærmen ud */
+    bottom: 0; /* placere footeren i bunden */
 }
 
 .footercontainer {
@@ -116,7 +117,7 @@ footer {
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px; /* max størrelsr på slider-containeren */
-    position: relative;
+    position: relative; 
     margin: auto;
 }
 
