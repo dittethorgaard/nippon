@@ -213,74 +213,51 @@ footer {
     padding-bottom: 1rem; /* afstand mellem billedet og teksten */
 }
 
-/* Knap til brugsanvisning */
-.container-knap {
-    display: flex; /* gør det muligt at bruge flexbox */
-    justify-content: center; /* centrerer horisontalt */
-    align-items: center; /* centrerer vertikalt */
-    height: 5rem; /* sætter højden til 100% af viewporten */
-}
-.button-brugeranvisning {
-    display: inline-block;
-    padding: 0.3rem 2rem;
-    background-color: var(--sekundaer-beige); /* baggrundsfarve til knappen */
-    color: #000; /* tekst farve */
-    text-decoration: none; /* fjerner streg under link */
-    border-radius: 0.3rem; /* runder hjørneren */
-    font-family: "merriweather"; /* skrifttype*/
-    
-}
-  
-.button-brugeranvisning:hover {
-    background-color: var(--sekundaer-moerk-beige); /* baggrundsfarve når hover */
+/* Prikker med mission, vision og brugeranvisning */
+.prik {
+    min-height: 330px; /* højden på prikkerne */
+    width: 330px; /* bredden på prikkerne */
+    margin: 0 2px;
+    background-color: var(--primaer-beige); /* baggrundsfarven */
+    border-radius: 50%; /* gør prikkerne helt cirkulære */
+    display: inline-block; /*  */
+    transition: background-color 0.6s ease; /*  */
 }
 
-
-/* Mission og vision */
-.mission {
-    background-color: var(--sekundaer-moerk-beige);
+.prikker {
+    align-items: baseline;
+    padding: 20px; /* giver afstand til næste container */
 }
 
-.mission h3 {
-    font-family: "Merriweather Sans", sans-serif; /* skrifttype */
-    margin: auto; /* centrer i midten af containeren */
-    display: flex; /* gør det muligt at bruge flexbox */
-    justify-content: center; /* centrere horisontalt */
-    align-items: center; /* centrere vertikalt */
-    padding-top: 1rem; /* afstand til toppen */
+.prik h3 {
+    font-family: "Merriweather Sans", sans-serif; /* skiftype */
+    padding-top: 2rem;
 }
 
-.mission p {
-    margin: auto; /* centrere midten af containeren */
-    display: flex; /* gør det muligt at bruge flexbox */
-    justify-content: center; /* centrere horisontalt */
-    align-items: center; /* centrere vertikalt */
-    padding: 1rem 10rem 1.5rem 10rem; /* afstand 1=top, 10=venstre, 1.5=bund, 10=højre */
-    font-family: "Merriweather", serif; /* skrifttype */
+.prik p {
+    font-family: "Merriweather", Serif; /* skiftype */
+    padding: 0rem 2rem 0rem 2rem;
 }
 
-.vision {
+.prik-knap {
+    cursor: pointer; /* ændre musen til at indikere man kan klikke på den */
+}
+
+#more {display: none;}
+
+#myBtn {
+    cursor: pointer; /* ændre musen til at indikere man kan klikke på den */
+    font-family: "Merriweather", Serif; /* skiftype */
     background-color: var(--sekundaer-beige);
-    margin-top: 2rem;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
 }
 
-.vision h3 {
-    font-family: "Merriweather Sans", sans-serif; /* skrifttype */
-    margin: auto; /* centrer i midten af containeren */
-    display: flex; /* gør det muligt at bruge flexbox */
-    justify-content: center; /* centrere horisontalt */
-    align-items: center; /* centrere vertikalt */
-    padding-top: 1rem; /* afstand til toppen */
+.active, #myBtn:hover {
+    background-color: var(--sekundaer-moerk-beige); /* farve når hover */
 }
 
-.vision p {
-    margin: auto; /* centrere midten af containeren */
-    display: flex; /* gør det muligt at bruge flexbox */
-    justify-content: center; /* centrere horisontalt */
-    align-items: center; /* centrere vertikalt */
-    padding: 1rem 10rem 1.5rem 10rem; /* afstand 1=top, 10=venstre, 1.5=bund, 10=højre */
-    font-family: "Merriweather", serif; /* skrifttype */
-}
 /* -------------------------------------------------------------- */
 /* MÅLTIDSKASSER - FORSIDE */
 
