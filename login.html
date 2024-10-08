@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nippon</title>
+    <link rel="icon" type="image/x-icon" href="/images/Lilleroed.webp">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
         </style>
-<body>  
+</head>
+<body>
     <header>
         <div class="header1"></div>
         <div class="header2">
@@ -18,6 +20,7 @@
             </div>
             <nav class="navbar">
                 <a href="maaltidskasse.html"> MÅLTIDSKASSER </a>
+                <div class="vl"></div>
                 <a href="bentobox.html"> MADPAKKER</a>
             </nav>
         </div>
@@ -30,41 +33,44 @@
             </a>
         </div>
     </header>
-<main>
-    <section class="login-box">
-        <img src="images/Login.webp" alt="login icon" class="login-img">
-        <br>
-        <label for="username">Brugernavn:</label>
-        <input type="text" id="username" name="username" value="Vælg brugernavn"><br><br>
-        <label for="pwd">Adgangskode:</label>
-        <input type="password" id="pwd" name="pwd" value="*******"><br><br>
+
+    <main>
+        <section class="login-box">
+            <img src="images/Login.webp" alt="login icon" class="login-img">
+            <br>
+            <label for="username">Brugernavn:</label>
+            <input type="text" id="username" name="username" value="Vælg brugernavn"><br><br>
+            <label for="pwd">Adgangskode:</label>
+            <input type="password" id="pwd" name="pwd" value="*******"><br><br>
+        
+            <a href="index.html" class="button-login">Log ind</a>
+        <section>
+            <!-- Vandret linje inde i boksen -->
+            <hr class="full-width-line">
+            <a href="index.html" class="button-login">Opret ny Bruger</a>
+        </section>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footercontainer">
+
+            <div class="footersocialemedier">
+                <ul>
+                    <li><a class="footer" href="#">
+                        <img src="images/ig.webp" alt="instagram-icon"></a></li>
+                    <li><a class="footer" href="#">
+                        <img src="images/tiktok.webp" alt="tiktok-icon"></a></li>
+                </ul>    
+            </div>
+
+            <div class="footerlinks">
+                <a href="#"> Kontakt </a>
+                <a href="#"> Om os </a>
+            </div>
+
+        </div>
+    </footer>
     
-        <a href="index.html" class="button-login">Log ind</a>
-    <section>
-        <!-- Vandret linje inde i boksen -->
-        <hr class="full-width-line">
-        <a href="index.html" class="button-login">Opret ny Bruger</a>
-    </section>
-    </section>
-</main>
-<footer>
-    <div class="footercontainer">
-
-        <div class="footersocialemedier">
-            <ul>
-                <li><a class="footer" href="#">
-                    <img src="images/ig.webp" alt="instagram-icon"></a></li>
-                <li><a class="footer" href="#">
-                    <img src="images/tiktok.webp" alt="tiktok-icon"></a></li>
-            </ul>    
-        </div>
-
-        <div class="footerlinks">
-            <a href="xxx"> Kontakt </a>
-            <a href="xxx"> Om os </a>
-        </div>
-
-    </div>
-</footer>
-</body>  
-</Html>
+</body>
+</html>
