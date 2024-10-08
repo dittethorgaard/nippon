@@ -240,7 +240,7 @@ footer {
 .prik h2 {
     font-family: "Merriweather Sans", sans-serif; /* skiftype */
     padding: 8.5rem 0rem 8.5rem 0rem; /* afstand over teksten */
-    font-size: large;
+    font-size: 20px;
 }
 
 #more {display: none;}
