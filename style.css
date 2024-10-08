@@ -15,6 +15,7 @@ a:link {
 a:visited {
     color: #000; /* Farve for besøgte links */
 }
+
 :root {
     --skriftfarve: #000;
     --primaer-beige: #D9D2C7;
