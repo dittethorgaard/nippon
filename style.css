@@ -81,7 +81,7 @@ header {
 }
 .header3 img {
     height: 2.5rem; /* størrelsen af ikonerne (login og kurv) i header3-containeren */
-    padding: 0.3rem; /* giver padding omkring hvert ikon */
+    padding: 0.5rem; /* giver padding omkring hvert ikon */
 }
 
 /* -------------------------------------------------------------- */
@@ -217,7 +217,6 @@ footer {
 .prik {
     min-height: 330px; /* højden på prikkerne */
     width: 330px; /* bredden på prikkerne */
-    margin: 0 5px;
     background-color: var(--primaer-beige); /* baggrundsfarven */
     border-radius: 50%; /* gør prikkerne helt cirkulære */
     display: inline-block;
@@ -230,12 +229,18 @@ footer {
 
 .prik h3 {
     font-family: "Merriweather Sans", sans-serif; /* skiftype */
-    padding-top: 2rem;
+    padding-top: 2rem; /* afstand over teksten */
 }
 
 .prik p {
     font-family: "Merriweather", Serif; /* skiftype */
-    padding: 0rem 3rem 0rem 3rem;
+    padding: 0rem 3rem 0rem 3rem; /*  */
+}
+
+.prik h2 {
+    font-family: "Merriweather Sans", sans-serif; /* skiftype */
+    padding: 8.5rem 0rem 8.5rem 0rem; /* afstand over teksten */
+    font-size: large;
 }
 
 #more {display: none;}
@@ -247,6 +252,7 @@ footer {
     border: 0;
     border-radius: 10px;
     padding: 10px;
+    margin-bottom: 2rem;
 }
 
 .active, #myBtn:hover {
