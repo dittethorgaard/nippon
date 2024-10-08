@@ -12,6 +12,9 @@ a:link {
     font-family: "Merriweather Sans", sans-serif; /* skiftypen på link */
 }
 
+a:visited {
+    color: #000; /* Farve for besøgte links */
+}
 :root {
     --skriftfarve: #000;
     --primaer-beige: #D9D2C7;
