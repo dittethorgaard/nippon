@@ -277,7 +277,7 @@ footer {
 .maaltidskasse p {
     width: 2rem; /* Sætter bredden på teksten til 2rem */
     margin-left: 40.4rem; /* Centerer containeren */
-    font-family: "merriweather sans"; /* skrifttype*/
+    font-family: "Merriweather Sans", sans-serif; /* skrifttype*/
 }
 
 .billede-container-maaltidskasse-udvalg {
@@ -360,10 +360,54 @@ footer {
 .fisk-udvalg p {
     width: 2rem; /* Sætter bredden på teksten til 2rem */
     margin-left: 41.1rem; /* Centerer containeren */
-    font-family: "merriweather sans"; /* skrifttype*/
+    font-family: "Merriweather Sans", sans-serif; /* skrifttype*/
 }
 
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .product-item {
+    padding: 20px;
+    text-align: center;
+    background-color: var(--primaer-beige); /* baggrund på boksen */
+    font-family: "Merriweather Sans", sans-serif; /* skrifttype*/
+  }
+  
+  .product-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-item h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    font-family: "Merriweather Sans", sans-serif; /* skrifttype*/
+  }
+  
+  .price {
+    font-size: 1em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Merriweather Sans", sans-serif; /* skrifttype*/
+  }
 
+  .time {
+    font-size: 1em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Merriweather Sans", sans-serif; /* skrifttype*/
+  }
+
+  #kurv-udvalg {
+    max-width: 10%; /* Billederne fylder containerens bredde */
+    height: auto; /* Bevarer billedets proportioner */
+  }
 
 /* -------------------------------------------------------------- */
 /* MÅLTIDSKASSER - UNDERSIDE VEGANSK */
