@@ -42,12 +42,12 @@ header {
 .header2 {
     width: 60%; /* størrelsen på midter header-containeren, som indeholder logo og navbar */
     margin: auto; /* centrer i midten af containeren */
-    display: flex; /* gør containeren flexibel */
+    display: flex; /* gør det muligt at bruge flexbox */
     justify-content: center; /* placere elementet i midten af containeren */
     flex-direction: column; /* gør elementerne inde i header2 containeren er i en kolonne */
 }
 .header2-logo {
-    display: flex; /* gør containeren flexibel */
+    display: flex; /* gør det muligt at bruge flexbox */
     justify-content: center; /* placere elementet i midten af containeren */
 }
 .header2-logo img{
@@ -59,7 +59,7 @@ header {
 
 .navbar {
     margin: auto;
-    display: flex; /* gør containeren flexibel */
+    display: flex; /* gør det muligt at bruge flexbox */
     justify-content: center; /* placere elementerne i midten af containeren */
 }
 .navbar a {
@@ -74,7 +74,7 @@ header {
 
 .header3 {
     width: 20%; /* størrelsen af den sidste header-container */
-    display: flex; /* gør containerne flexibel */
+    display: flex; /* gør det muligt at bruge flexbox */
     justify-content: right; /* placere ikonerne til højre */
     align-items: end; /* placere den i det nedereste højrne af containeren. */
     padding-right: 0.7rem; /* rykker ikonerne lidt ind på side */
@@ -93,30 +93,30 @@ footer {
 }
 
 .footercontainer {
-    display: flex; /* gør containerne flexibel */
+    display: flex; /* gør det muligt at bruge flexbox */
     justify-content: space-between; /* placerer elementerne i hver side af skærmen */
+}
+
+.footerlinks {
+    display: flex; /* gør det muligt at bruge flexbox */
+    flex-direction: column; /* placere elementerne i en kolonne */
+    justify-content: center; /* placere elementerne i midten af containeren */
+    padding-left: 1.5rem; /* afstand til kant */
+}
+
+.footerlinks a {
+    padding-top: 0.5rem; /* afstand til element over */
+    padding-bottom: 0.5rem; /* afstand til element under */
 }
 
 .footersocialemedier ul {
     list-style: none; /* fjerner prikkerne fra list-elementerne */
+    padding-right: 1.5rem; /* afstand til kant */
 }
-
+/*  */
 .footersocialemedier img {
     width: 2.5rem; /* størrelsen af sociale medier ikonerne */
     padding: 0.2rem; /* afstand rundt om ikonerne, så de ikke ligger for tæt */
-}
-
-.footerlinks {
-    display: flex; /* gør containerne flexibel */
-    flex-direction: column; /* placere elementerne i en kolonne */
-    justify-content: center; /* placere elementerne i midten af containeren */
-    padding-right: 0.7rem; /* afstand til kant */
-}
-
-.footerlinks a {
-    padding-right: 1.65rem; /* afstand til højre */
-    padding-top: 0.5rem; /* afstand til element over */
-    padding-bottom: 0.5rem; /* afstand til element under */
 }
 /* -------------------------------------------------------------- */
 /* HOVEDFORSIDE */
@@ -124,7 +124,7 @@ footer {
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px; /* max størrelsr på slider-containeren */
-    position: relative; /*  */
+    position: relative;
     margin: auto; /* centrer slideshow-containeren */
 }
 
@@ -134,7 +134,7 @@ footer {
 
 /* Hide the images by default */
 .mySlides {
-    display: none; /*  */
+    display: none;
 }
   
 /* Next & previous buttons */
@@ -142,15 +142,15 @@ footer {
     cursor: pointer; /* ændre musen til at indikere man kan klikke på den  */
     position: absolute;
     top: 50%; /* placere den halvvejs på billedet - ved kanten */
-    width: auto; /*  */
-    margin-top: -22px; /*  */
+    width: auto;
+    margin-top: -22px;
     padding: 16px; /* afstand rundt om */
     color: white; /* farven på pillene */
     font-weight: bold; /* gør pillene tykke */
     font-size: 25px; /* størrelsen på pillene */
-    transition: 0.6s ease; /*  */
+    transition: 0.6s ease;
     border-radius: 0 7px 7px 0; /* afrundet hjørner mod billedet - ikke mod kanten */
-    user-select: none; /*  */
+    user-select: none;
 }
   
 /* Position the "next button" to the right */
@@ -199,7 +199,7 @@ footer {
 /* Måltidskasser og Madpakker */
 .forside-container {
     margin: auto; /* centerer containeren */
-    display: flex;
+    display: flex; /* gør det muligt at bruge flexbox */
     justify-content: center; /* placerer elementerne i midten */
     align-items: baseline; /* gør at elementerne er på sammen linje - bundlinjen */
     flex-direction: row; /* gør elementerne på række */
@@ -234,13 +234,13 @@ footer {
 
 .prik p {
     font-family: "Merriweather", Serif; /* skiftype */
-    padding: 0rem 3rem 0rem 3rem; /*  */
+    padding: 0rem 3rem 0rem 3rem; /* afstand 0rem top, 3rem højre, 0rem bund og 3rem venstre. */
 }
 
 .prik h2 {
     font-family: "Merriweather Sans", sans-serif; /* skiftype */
     padding: 8.5rem 0rem 8.5rem 0rem; /* afstand over teksten */
-    font-size: 20px;
+    font-size: 20px; /* skriftstørrelse, så den er samme størrelse som de andre */
 }
 
 #more {display: none;}
@@ -248,11 +248,11 @@ footer {
 #myBtn {
     cursor: pointer; /* ændre musen til at indikere man kan klikke på den */
     font-family: "Merriweather", Serif; /* skiftype */
-    background-color: var(--sekundaer-beige);
-    border: 0;
-    border-radius: 10px;
-    padding: 10px;
-    margin-bottom: 2rem;
+    background-color: var(--sekundaer-beige); /* baggrundsfarve */
+    border: 0; /* fjerne kantlinjen omkring knappen */
+    border-radius: 10px; /* afrunder hjørner */
+    padding: 10px; /* afstand mellem tekst og kanten på knappen */
+    margin-bottom: 2rem; /* afstand til under knappen */
 }
 
 .active, #myBtn:hover {
@@ -310,17 +310,17 @@ footer {
 }
 .button-brugeranvisning {
     display: inline-block;
-    padding: 0.3rem 2rem;
-    background-color: var(--sekundaer-beige);
-    color: #000;
-    text-decoration: none;
-    border-radius: 0.3rem;
+    padding: 0.3rem 2rem; /* 0.3rem afstand over og under, 2rem afstand i siderne */
+    background-color: var(--sekundaer-beige); /* baggrundsfarve */
+    color: #000; /* tekstsfarve */
+    text-decoration: none; /* fjerner stregen under link og den blå farve */
+    border-radius: 0.3rem; /* afrunder hjørner */
     font-family: "merriweather"; /* skrifttype*/
     
   }
   
   .button-brugeranvisning:hover {
-    background-color: var(--sekundaer-moerk-beige);
+    background-color: var(--sekundaer-moerk-beige); /* baggrundsfarve */
   }
 
 /* -------------------------------------------------------------- */
@@ -461,7 +461,7 @@ footer {
 .billede-container-madpakke-udvalg img {
     max-width: 100%; /* Billederne fylder containerens bredde */
     height: auto; /* Bevarer billedets proportioner */
-    margin-bottom: -1rem;
+    margin-bottom: -1rem; /* afstand under */
 
 }
 
@@ -599,16 +599,16 @@ footer {
 /* knap login */
 .login-box .button-login {
     display: inline-block;
-    padding: 0.3rem 2rem;
-    background-color: var(--sekundaer-beige);
-    color: #000;
-    text-decoration: none;
-    border-radius: 0.3rem;
+    padding: 0.3rem 2rem; /* 0.3rem afstand over og under, 2rem afstand til siderne */
+    background-color: var(--sekundaer-beige); /* baggrundsfarve */
+    color: #000; /* tekstfarve */
+    text-decoration: none; /* fjerner streg under link og blå tekstfarve */
+    border-radius: 0.3rem; /* afrunder hjørner */
     font-family: "merriweather"; /* skrifttype*/
 }
   
 .login-box .button-login:hover {
-    background-color: var(--sekundaer-moerk-beige);
+    background-color: var(--sekundaer-moerk-beige); /* baggrundsfarve */
 }
 
 
@@ -622,13 +622,13 @@ footer {
     background-color: #f7f7ef; /* Baggrundsfarven for boksen */
     border: 0.12rem solid var(--sekundaer-beige); /* Ramme omkring boksen */
     border-radius: 0.3rem; /* Afrundede hjørner */
-    text-align: center;
-    font-family: "merriweather"; /* skrifttype*/
+    text-align: center; /* centrer teksten */
+    font-family: "merriweather"; /* skrifttype */
 }
   
 .kurv-box p {
     color: var(--skriftfarve); /* Farven på brødteksten */
-    font-family: "merriweather"; /* skrifttype*/
+    font-family: "merriweather"; /* skrifttype */
 }
   
 /* img login */
