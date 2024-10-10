@@ -35,7 +35,7 @@ function showSlides(n) {
 function myFunction() {
   var dots = document.getElementById("dots"); // 'dots': Denne variabel refererer til et HTML-element med id'et "dots". Dette element bruges ofte til at vise ellipser. Det kan være en del af en tekst, der er skjult.
   var moreText = document.getElementById("more"); // 'moreText': Denne variabel refererer til et HTML-element med id'et "more". Dette element indeholder typisk den ekstra tekst, der skal vises, når brugeren klikker på knappen.
-  var btnText = document.getElementById("myBtn"); // 'btnText': Denne variabel refererer til et HTML-element med id'et "myBtn". Dette element er knappen, der bruges til at skifte mellem at vise og skjule teksten.
+  var btnText = document.getElementsByClassName("myBtn"); // 'btnText': Denne variabel refererer til et HTML-element med id'et "myBtn". Dette element er knappen, der bruges til at skifte mellem at vise og skjule teksten.
 
   if (dots.style.display === "none") {
     dots.style.display = "inline"; // Sættes 'dots.style.display' til "inline", hvilket gør det synligt.

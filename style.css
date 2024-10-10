@@ -245,7 +245,7 @@ footer {
 
 #more {display: none;}
 
-#myBtn {
+.myBtn {
     cursor: pointer; /* ændre musen til at indikere man kan klikke på den */
     font-family: "Merriweather", Serif; /* skiftype */
     background-color: var(--sekundaer-beige); /* baggrundsfarve */
