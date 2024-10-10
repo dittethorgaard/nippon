@@ -339,7 +339,7 @@ footer {
 
 .kod-udvalg p {
     width: 2rem; /* Sætter bredden på teksten til 2rem */
-    margin: center; /* Centerer containeren */
+    margin: auto; /* Centerer containeren */
     font-family: "merriweather sans"; /* skrifttype*/
 }
 
