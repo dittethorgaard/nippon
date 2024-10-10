@@ -405,7 +405,7 @@ footer {
     font-family: "Merriweather"; /* skrifttype*/
   }
 
-  #kurv-udvalg {
+  .kurv-udvalg {
     max-width: 10%; /* Billederne fylder containerens bredde */
     height: auto; /* Bevarer billedets proportioner */
   }
